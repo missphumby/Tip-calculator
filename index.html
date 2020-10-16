@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>ctipCalc</title>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <h2 style="color:pink; justify-content: center; font-size: 30px; margin-left: 100px;">Tip <span style="color: green;">Calculator</span></h2>
+    <div id="feedback" style="font-size: 25px; padding: 4px; width: 40%;"></div>
+    <div id="container"
+        style=" font-size: 25px; width: 40%; background-color: blue; height: 400px; border: 1px solid transparent; border-radius: 8px;">
+
+        <p id="bill-amount" style="color: white;">Bill Amount: <input type="number" class="bill-input"
+                style="background-color: white;"></p>
+        <p id="Percentage"  style="color: white;">Percentage Tip: <input type="number" class="percentage-input"
+                style="background-color: white;"></p>
+        <p id="tip-amount" style="color: white;">Tip Amount: <input class="tip-input" style="background-color:gainsboro;"></p>
+        <p id="total-output" style="color: white;">Total: <input class="total-input" style="background-color:gainsboro;"></p>
+        <button id="compute-loan"
+            style="background-color: rgb(190, 49, 49); margin-left: 40%; border-radius: 8px; padding: 5px; padding-right: 20px; padding-left: 20px; font-size: 18px;">Calculate</button>
+        <!-- <h3 style="color: white; font-size: 20px;" id="loan-output"></h3> -->
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+
+</html>

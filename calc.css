@@ -1,0 +1,17 @@
+body{
+    align-items: center;
+    justify-content: center;
+}
+input{
+    float: right;
+    margin-right: 20px;
+}
+p{
+    padding-left: 25px;
+    padding-right: 2px;
+}
+#compute-loan{
+    align-self: center;
+    align-content: center;
+    align-content: center;
+}
